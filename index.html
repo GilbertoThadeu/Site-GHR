@@ -1,0 +1,295 @@
+<!--
+Author: Gilberto Thadeu de Souza
+Author URL:https://www.linkedin.com/in/gilberto-thadeu-de-souza-0b987943/
+-->
+<!DOCTYPE HTML>
+<html>
+	<head>	
+		<meta charset="utf-8">
+		<meta name="Description" CONTENT="GHR Monitoramento: Instalação de câmera, alarme, cerca elétrica, CFTV e segurança">
+		<!-- Mudar: https://support.google.com/webmasters/answer/9008080  <meta name="google-site-verification" content="+nxGUDJ4QpAZ5l9Bsjdi102tLVC21AIh5d1Nl23908vVuFHs34="/> -->
+		<meta name="google-site-verification" content="NjfReLty9zKh1B3xxI71C2rBRpqMKJyDRo8xhnMGxnk">	
+		<title>GHR Monitoramento</title>
+		<meta name="robots" content="index,follow">
+		<meta http-equiv="content-type" content="text/html">
+		<meta name="autor" content="GHR Monitoramento 24 Horas">
+		<meta name="company" content="GHR Monitoramento 24 Horas">
+		<meta name="copyright" content="GHR Monitoramento 24 Horas">
+		<meta name="keywords" content="Instalação, Instalações, alarme, camera, câmera, CFTV, monitoramento, tático, cerca, elétrica, segurança">
+		<link rel="shortcut icon" type="image/png" href="images/logo-ico.png">
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css'>
+		<script src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+		<link href="css/theme-style.css" rel='stylesheet' type='text/css'>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
+		<script>
+			$(function() {
+				var pull 		= $('#pull');
+					menu 		= $('nav ul');
+					menuHeight	= menu.height();
+				$(pull).on('click', function(e) {
+					e.preventDefault();
+					menu.slideToggle();
+				});
+				$(window).resize(function(){
+					var w = $(window).width();
+					if(w > 320 && menu.is(':hidden')) {
+						menu.removeAttr('style');
+					}
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div id="inicio" class="inicio">
+			<div class="container">
+				<div class="logo">
+					<img src="images/logo.jpg" title="logo" />
+				</div>
+					<nav class="top-nav">
+					<ul class="top-nav">
+						<li class="active"><a href="index.html" class="scroll">Início <span> </span></a></li>
+						<li class="page-scroll"><a href="#empresa" class="scroll">Empresa <span> </span></a></li>
+						<li class="page-scroll"><a href="#produtos" class="scroll">Produtos <span> </span></a></li>
+						<li class="page-scroll"><a href="#servicos" class="scroll">Serviços <span> </span></a></li>
+						<li class="contatct-active" class="page-scroll"><span><a href="#contato" class="scroll">Contato </a> </span> </li>
+					</ul>
+					<a href="#" id="pull"><img src="images/menu.png" title="menu" /></a>
+				</nav>
+				<div class="clearfix"> </div>
+			</div>
+		</div>	
+
+		<script src="js/responsiveslides.min.js"></script>
+		<script>
+			$(function () {
+				$("#slider").responsiveSlides({
+				auto: true,
+				pager: true,
+				nav: true,
+				speed: 500,
+				namespace: "callbacks",
+				before: function () {
+					$('.events').append("<li>before event fired.</li>");
+				},
+				after: function () {
+					$('.events').append("<li>after event fired.</li>");
+				}
+				});
+
+			});
+		</script>
+
+		<div  id="top" class="callbacks_container">
+			<ul class="rslides" id="slider">
+			<li>
+				<img src="images/cameras.jpg" alt="">
+				<div class="caption text-center">
+				<div class="slide-text-info">
+					<span>GHR</span>
+					<h1><span>Instalações de cameras e video porteiro</span></h1>
+					<div class="slide-text">
+						<p>Deixe seu padrimonio mais seguro e sofisticado com a GHR</p>
+					</div>
+					<a class="btn2" href="#contato"><span>Contato</span></a>
+				</div>
+				</div>
+			</li>
+			<li>
+				<img src="images/monitoramento.jpg" alt="">
+				<div class="caption text-center">
+				<div class="slide-text-info">
+					<span>GHR</span>
+					<h1><span>CFTV e Monitoramento tático 24 horas</span></h1>
+					<div class="slide-text">
+						<p>Com a GHR você ficará mais tranquilo</p>
+					</div>
+					<a class="btn2" href="#contato"><span>Contato</span></a>
+				</div>
+				</div>
+			</li>
+			<li>
+				<img src="images/cercas.jpg" alt="">
+				<div class="caption text-center">
+				<div class="slide-text-info">
+					<span>GHR</span>
+					<h1><span>Instalação de cerca elétríca e concertina</span></h1>
+					<div class="slide-text">
+						<p>Instalações e produtos de segurança é na GHR</p>
+					</div>
+					<a class="btn2" href="#contato"><span>Contato</span></a>
+				</div>
+				</div>
+			</li>
+			</ul>
+		</div>
+		<div class="clearfix"> </div>
+
+		<div id="empresa" class="empresa">
+			<div class="container">
+				<div class="empresa-head text-center">
+					<h3>A Empresa</h3>
+					<p>GHR Monitoramento é uma empresa com mais de 5 anos de experiência. E nossos valores são:</p>
+				</div>
+				<div class="empresa-grids">
+					<div class="col-md-4 empresa-grid">
+						<div class="col-md-9 empresa-grid-right">
+							<h4>Atendimento</h4>
+							<p>Visamos o melhor atendimento em todas as partes do processo.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 empresa-grid">
+						<div class="col-md-9 empresa-grid-right">
+							<h4>Agilidade</h4>
+							<p>Sabemos que quando se trata de segurança ser ágil faz toda a diferença.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					<div class="col-md-4 empresa-grid">
+						<div class="col-md-9 empresa-grid-right">
+							<h4>Garantia e Qualidade</h4>
+							<p>Garantia de serviços prestados com qualidade.</p>
+						</div>
+						<div class="clearfix"> </div>
+					</div>
+					
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+
+		<div id="produtos" class="servicos">
+			<div class="container">
+				<div class="servicos-head text-center">
+					<h3>Produtos</h3>
+					<p>Trabalhamos com varios produtos de diferentes modelos e marcas.</p>
+				</div>
+				<div class="servicos-members-grids text-center">
+					<div class="col-md-4 servicos-member-grid">
+						<img src="images/cameras2.jpg" title="name" />
+						<h4><b>Cameras</b></h4>
+						<h5>Noturnas, IP, Speed Dome, entre outras</h5>
+					</div>
+					<div class="col-md-4 servicos-member-grid">
+						<img src="images/dvr.jpg" title="name" />
+						<h4><b>DVR</b></h4>
+						<h5>Grave suas imagens, veja online</h5>
+					</div>
+					<div class="col-md-4 servicos-member-grid">
+						<img src="images/cercaEletrica.jpg" title="name" />
+						<h4><b>Cerca Eletrica</b></h4>
+						<h5>Kit completo para cada situação</h5>							
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+			</div>
+		</div>
+
+		<div id="servicos" class="servicos">
+		<div class="container">
+			<div class="servicos-head text-center">
+				<h3>Serviços</h3>
+				<p>Serviços com agilidade qualidade e garantia</p>
+			</div>
+			<div class="servicos-members-grids text-center">
+				<div class="col-md-4 servicos-member-grid">
+					<img src="images/alarme.jpg" title="name" />
+					<h4><b>Instalação de alarmes</b></h4>
+					<h5>Residencial e empresarial e manutenção</h5>
+				</div>
+				<div class="col-md-4 servicos-member-grid">
+					<img src="images/cftv.jpg" title="name" />
+					<h4><b>Instalação completa CFTV</b></h4>
+					<h5>Cameras, gravação e monitoramento online</h5>
+				</div>
+				<div class="col-md-4 servicos-member-grid">
+					<img src="images/tatico.jpg" title="name" />
+					<h4><b>Monitoramento 24h</b></h4>
+					<h5>Monitoramento tático 24 horas</h5>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+		</div>
+
+		<div id="contato" class="contato">
+		<div class="container">
+			<div class="servicos-head text-center">
+				<h3>Contato</h3>
+					<span>Agende um orçamento sem compromisso</span>
+			</div>
+			<br />
+			<div class="contato-head text-center">
+				<b>WhatsApp:</b>
+				<h3>
+					<a href="https://wa.me/5541991667858">
+						<img src="images/whats.jpg" height="40px" width="40px" />
+						(41) 99166-7858 
+					</a> 
+				</h3>
+				<b>Ligue Agora:</b>
+				<h3>
+					<a href="tel:30111313">
+						<img src="images/telefone.svg" height="28px" width="28px" />
+						(41) 3011-1313
+					</a> 
+				</h3>
+				<h3>
+					<a href="tel:997683377">
+						<img src="images/telefone.svg" height="28px" width="28px" />
+						(41) 99768-3377
+					</a> 
+				</h3>
+				<h4 style="padding-top: 10px;">
+					<a href="#" style="text-decoration: none;"
+					onclick="window.open(
+					'https://api.whatsapp.com/send?text=Olha a empresa de câmeras, alarmes e Monitoramento, que eu indico.:https://ghrmonitoramento.com.br',
+					'_system', 'location=yes'); return false;"
+					>
+					<img src="images/compartilhe.svg" height="28px" width="28px">
+					<b>Compartilhe:</b><br />						
+					<img src="images/ghr.jpg" style="width:30%;">
+					</a> 
+				</h4>
+				<p><label>Rua João Guerino Fabri, 460 - Curitiba / PR</label></p>
+				<div class="mapa">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.4670731549627!2d-49.22459408533427!3d-25.45607474015638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce5408cfa3307%3A0xdcf235c363bc1d62!2sRua%20Jo%C3%A3o%20Guerino%20Fabri%2C%20460%20-%20Cajuru%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1579389897294!5m2!1spt-BR!2sbr" width="90%" height="100%" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+				</div>
+			</div>				
+			<div class="clearfix"> </div>
+		</div>
+		</div>		
+		<div class="footer">
+			<div class="container">
+				<div class="footer-right">
+						<p>GHR - Monitoramento</p>
+						Web Site Desenvolvido por Gilberto Thadeu
+						<a href="https://www.linkedin.com/in/gilberto-thadeu-de-souza-0b987943/">
+							<img src="images/linkedin.svg" height="40em" width="40em">
+						</a>
+					<script type="text/javascript">
+						$(document).ready(function() {
+							$().UItoTop({ easingType: 'easeOutQuart' });							
+						});
+					</script>
+					<a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+				</div>				 
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+	</body>
+</html>
+
