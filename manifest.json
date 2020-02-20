@@ -1,0 +1,23 @@
+{
+	"dir" : "ltr",
+	"lang" : "Portuguese",
+	"name" : "GHR Monitoramento",
+	"scope" : "/",
+	"display" : "browser",
+	"start_url" : "https://ghrmonitoramento.com.br/",
+	"short_name" : "GHR",
+	"theme_color" : "transparent",
+	"description" : "Empresa de monitoramento tático, que presta serviços e vendas de equipamentos de segurança, como câmera, alarme, cerca elétrica e concertina, DVR, CFTV, vídeo porteiro, portão eletrônico entre outros serviços e instalações de segurança.",
+	"orientation" : "any",
+	"background_color" : "transparent",
+	"related_applications" : [],
+	"prefer_related_applications" : false,
+	"icons" : [
+		{
+			"src": "https://ghrmonitoramento.com.br/images/logo-ico.png",
+			"sizes": "32x32"
+		}],
+	"url" : "https://ghrmonitoramento.com.br",
+	"screenshots" : [],
+	"generated" : "true"
+}

@@ -5,6 +5,15 @@ Author URL:https://www.linkedin.com/in/gilberto-thadeu-de-souza-0b987943/
 <!DOCTYPE HTML>
 <html>
 	<head>
+		<link rel='manifest' href='/manifest.json'>
+		<script
+			type="module"
+			src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall">
+		</script>
+		<pwa-install></pwa-install>
+		<script src="https://unpkg.com/pwabuilder-components@latest"></script>
+		<pwb-share title="Compartilhe" text="Compartilhe segurança" url="https://ghrmonitoramento.com.br"></pwb-share>
+
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156550739-1">
 		</script>
@@ -12,7 +21,7 @@ Author URL:https://www.linkedin.com/in/gilberto-thadeu-de-souza-0b987943/
 		window.dataLayer = window.dataLayer || [];
 		function gtag(){dataLayer.push(arguments);}
 		gtag('js', new Date());
-
+		
 		gtag('config', 'UA-156550739-1');
 		</script>
 		
