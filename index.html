@@ -6,13 +6,27 @@ Author URL:https://www.linkedin.com/in/gilberto-thadeu-de-souza-0b987943/
 <html>
 	<head>
 		<link rel='manifest' href='/manifest.json'>
+		<script>
+			if ("serviceWorker" in navigator) {
+				if (navigator.serviceWorker.controller) {
+					console.log("[PWA Builder] active service worker found, no need to register");
+				} else {
+					// Register the service worker
+					navigator.serviceWorker
+					.register("pwabuilder-sw.js", {
+						scope: "./"
+					})
+					.then(function (reg) {
+						console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+					});
+				}
+			}
+		</script>
 		<script
 			type="module"
 			src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwainstall">
 		</script>
 		<pwa-install></pwa-install>
-		<script src="https://unpkg.com/pwabuilder-components@latest"></script>
-		<pwb-share title="Compartilhe" text="Compartilhe segurança" url="https://ghrmonitoramento.com.br"></pwb-share>
 
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-156550739-1">
