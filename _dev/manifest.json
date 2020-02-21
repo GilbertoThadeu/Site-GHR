@@ -1,0 +1,99 @@
+{
+    "dir": "ltr",
+    "lang": "Portuguese",
+    "name": "GHR Monitoramento",
+    "scope": "/",
+    "display": "standalone",
+    "start_url": "https://ghrmonitoramento.com.br/",
+    "short_name": "GHR Monitoramento",
+    "theme_color": "transparent",
+    "description": "Empresa de monitoramento tático, que presta serviços e vendas de equipamentos de segurança, como câmera, alarme, cerca elétrica e concertina, DVR, CFTV, vídeo porteiro, portão eletrônico entre outros serviços e instalações de segurança.",
+    "orientation": "any",
+    "background_color": "transparent",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "/images/images/logo_36x36.png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "/images/images/logo_44x44.png",
+            "sizes": "44x44"
+        },
+        {
+            "src": "/images/images/logo_48x48.png",
+            "sizes": "48x48"
+        },
+        {
+            "src": "/images/images/logo_1240x600.png",
+            "sizes": "1240x600"
+        },
+        {
+            "src": "/images/images/logo_300x300.png",
+            "sizes": "300x300"
+        },
+        {
+            "src": "/images/images/logo_150x150.png",
+            "sizes": "150x150"
+        },
+        {
+            "src": "/images/images/logo_88x88.png",
+            "sizes": "88x88"
+        },
+        {
+            "src": "/images/images/logo_24x24.png",
+            "sizes": "24x24"
+        },
+        {
+            "src": "/images/images/logo_50x50.png",
+            "sizes": "50x50"
+        },
+        {
+            "src": "/images/images/logo_620x300.png",
+            "sizes": "620x300"
+        },
+        {
+            "src": "/images/images/logo_192x192.png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "/images/images/logo_144x144.png",
+            "sizes": "144x144"
+        },
+        {
+            "src": "/images/images/logo_96x96.png",
+            "sizes": "96x96"
+        },
+        {
+            "src": "/images/images/logo_72x72.png",
+            "sizes": "72x72"
+        },
+        {
+            "src": "/images/images/logo_36x36.png",
+            "sizes": "36x36"
+        },
+        {
+            "src": "/images/images/logo_1024x1024.png",
+            "sizes": "1024x1024"
+        },
+        {
+            "src": "/images/images/logo_180x180.png",
+            "sizes": "180x180"
+        },
+        {
+            "src": "/images/images/logo_152x152.png",
+            "sizes": "152x152"
+        },
+        {
+            "src": "/images/images/logo_120x120.png",
+            "sizes": "120x120"
+        },
+        {
+            "src": "/images/images/logo_76x76.png",
+            "sizes": "76x76"
+        }
+    ],
+    "url": "https://ghrmonitoramento.com.br/teste.html",
+    "screenshots": []
+}
